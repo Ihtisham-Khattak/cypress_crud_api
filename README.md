@@ -2,7 +2,7 @@
 
 
 
-====== ##Mochawesome-reporter ======
+###====== Mochawesome-reporter ======
 Mochawesome is a custom reporter for use with the Javascript testing framework, mocha. 
 It runs on Node.js (>=10) and works in conjunction with mochawesome-report-generator to 
 generate a standalone HTML/CSS report to help visualize your test runs.
