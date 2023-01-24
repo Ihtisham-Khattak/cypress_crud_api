@@ -89,15 +89,3 @@ npm install --save-dev mochawesome-report-generator
     "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   }
 ```
-
-- For reference, check out https://github.com/ashikkumar23/api-testing-cypress/blob/master/.github/workflows/cypress_report.yml
-- Finally, enable the GitHub Pages feature for your repository:
-  - Navigate to `Settings` > `Pages` > Make sure that `Source` is set to `Deploy from a branch` and `Branch` as `gh-pages`
-  - Currently, the workflow can be triggered manually via `workflow_dispatch` or on every push to the `master` branch
-  - Your site should be deployed at `https://{GITHUB_ACCOUNT_NAME}.github.io/{REPOSITORY_NAME}/`
-- The final test report can be viewed here, https://ashikkumar23.github.io/api-testing-cypress/
-
-## 🚀 Notes:
-
-- `.github/workflows/package_update.yml` workflow would ensure the dependencies are up-to-date
-- Tests are always run on the latest dependencies ✅
